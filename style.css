@@ -1,0 +1,201 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+header {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    text-align: center;
+    background: rgb(86, 15, 167);
+}
+
+
+header img {
+    float: left;
+    height: 37px;
+    width: 50px;
+    border-radius: 100px;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(108, 82, 255);
+    height: 40px;
+    box-shadow: 0px 8px 8px rgb(99, 99, 99);
+}
+#home { 
+    color: blue;
+    background-color: white;
+}
+nav a {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    margin: 5px;
+    background: rgb(133, 133, 255);
+    padding: 5px;
+    border-radius: 3px;
+    width: 90px;
+    text-align: center;
+}
+
+nav a:hover {
+    color: blue;
+    background-color: white;
+}
+nav, footer {
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+button {
+    padding: 8px;
+    margin: 10px;
+}
+
+footer {
+    clear: both;
+    height: 90px;
+    background: rgb(109, 5, 168);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer a {
+    font-size: 30px;
+    text-decoration: none;
+    margin: 5px;
+    color: white;
+}
+
+footer a:hover {
+    color: rgb(100, 100, 247);
+}
+
+
+
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+article, aside {
+    float: none;
+    width: 100%;
+    height: auto;
+}
+
+body, h1, p, h2, a, ul, li {
+    margin: 0;
+}
+
+section h1 {
+    margin: 20px;
+}
+
+section {
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    background: rgb(255, 255, 255);
+    margin-bottom: 300px;
+    font-family: cursive;
+}
+
+section img {
+    height: 500px;
+    width: 500px;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 20px 20px rgb(49, 49, 49);
+}
+
+.feart {
+    margin-top: 600px;
+}
+
+.all {
+    margin: 5px;
+}
+
+.para {
+    padding: 50px;
+    color: white;
+    font-size: 18px;
+    background-color: rgb(86, 15, 167);
+    border-radius: 30px;
+    width: 70%;
+    margin-bottom: 40px;
+    box-shadow: 0px 20px 20px rgb(99, 99, 99);
+}
+
+
+
+
+article {
+    width: 100%;
+    height: 600px;
+    background: rgb(71, 71, 71);
+    float: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow-y: auto;
+}
+
+.post {
+    padding: 1.5px;
+    border-radius: 10px;
+    background: rgb(137, 138, 137);
+    width: 90%;
+}
+
+.post p {
+    text-align: left;
+    padding: 5px;
+}
+
+
+.post button {
+    background-color: rgb(121, 118, 118);
+    border-radius: 5px;
+    border-width: 1px;
+}
+
+aside {
+    background: rgb(65, 73, 122);
+    width: 40%;
+    float: left;
+    height: 300px;
+}
+
+aside h2 {
+    padding: 30px;
+}
+
+aside ul {
+    margin: 0;
+}
+
+
+
+
+section button {
+    background-color: darkgray;
+    border-radius: 5px;
+    border-width: 1px;
+}
